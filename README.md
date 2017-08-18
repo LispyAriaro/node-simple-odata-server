@@ -1,11 +1,8 @@
-# Node simple OData server
-[![NPM Version](http://img.shields.io/npm/v/simple-odata-server.svg?style=flat-square)](https://npmjs.com/package/simple-odata-server)
-[![License](http://img.shields.io/npm/l/simple-odata-server.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-[![Build Status](https://travis-ci.org/pofider/node-simple-odata-server.png?branch=master)](https://travis-ci.org/pofider/node-simple-odata-server)    
+# Node simple OData server, with Power Bi support
 
-**Super simple implementation of OData server running on Node.js with easy adapters for mongodb and nedb.** Just define an OData model, provide a mongo or nedb database, hook into node.js http server and run. 
+**Super simple implementation of OData server running on Node.js with easy adapters for mongodb and nedb. It will work with Power Bi** Just define an OData model, provide a mongo or nedb database, hook into node.js http server and run. It
 
-It supports basic operations you would expect like providing $metadata, filtering and also operations for insert, update and delete. On the other hand it suppose to be really simple so you don't get support for entity links, batch operations, atom feeds and many others. 
+It supports basic operations you would expect like providing $metadata, filtering and also operations for insert, update and delete. On the other hand it suppose to be really simple so you don't get support for entity links, batch operations and many others.
 
 The implementation is tested with [.net OData client](https://github.com/object/Simple.OData.Client) and it should fulfill basic protocol requirements.
 
