@@ -1,14 +1,14 @@
 {
-  "name": "simple-odata-server",
+  "name": "node-simple-odata-server-power-bi",
   "version": "0.3.1",
   "description": "OData server with adapter for mongodb and nedb",
   "main": "index.js",
   "scripts": {
     "test": "standard && mocha -R spec"
   },
-  "author": "Jan Blaha",
+  "author": "Ariaroo Efe",
   "license": "MIT",
-  "repository": "pofider/node-simple-odata-server",
+  "repository": "LispyAriaro/node-simple-odata-server-power-bi",
   "keywords": [
     "OData",
     "server",
